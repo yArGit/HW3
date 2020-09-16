@@ -29,20 +29,14 @@ th, td {
     
 }
 
-select {
-    background-color: rgb(187, 184, 145);
-    border-radius: 2px;
-
-}
-
-.container {
-    
-}
-
 img {
     margin-right: 3px;
 }
 
 .item {
     margin-top: 50px;
+}
+
+.search {
+    background: rgb(187, 184, 145);
 }
