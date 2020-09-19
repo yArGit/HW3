@@ -13,7 +13,7 @@ body {
 table {
     position: relative;
     margin:auto;
-    width: 60%;
+    width: 35%;
     border: 1px solid rgba(255, 255, 255, 0.733);
     background-color: rgb(187, 184, 145);
     border-radius: 5px;
@@ -30,8 +30,10 @@ th, td {
 }
 
 img {
-    margin-right: 3px;
-}
+    width: 13px;
+    height: 13px;
+    margin: 3px 4px;
+    }
 
 .item {
     margin-top: 50px;
@@ -39,4 +41,23 @@ img {
 
 .search {
     background: rgb(187, 184, 145);
+    border: none;
+    outline: none;
+    width: 100px;
+}
+
+.search-place {
+    background: rgb(187, 184, 145);
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 120px;
+}
+
+.mid-td {
+    width: 20%;
+}
+
+.right-td {
+    text-align: right;
+    width: 20%;
 }
